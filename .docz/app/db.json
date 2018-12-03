@@ -10,6 +10,7 @@
     "native": false,
     "codeSandbox": true,
     "base": "./",
+    "dest": "./dist",
     "hashRouter": true
   },
   "entries": {
@@ -36,15 +37,21 @@
       ]
     },
     "src/hello.mdx": {
+      "name": "hello",
       "id": "e2fb1f1eb1d17bc0a0e6e100f86fb0f4",
       "filepath": "src/hello.mdx",
       "link": null,
       "slug": "src-hello",
       "route": "/src-hello",
-      "name": "Hello",
       "order": 0,
       "menu": null,
-      "headings": []
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hello-world",
+          "value": "hello world"
+        }
+      ]
     },
     "src/components/Alert.mdx": {
       "name": "Alert",
