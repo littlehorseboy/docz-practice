@@ -1,8 +1,10 @@
 {
   "config": {
-    "title": "Docz Practice",
+    "title": "測試",
     "description": "My awesome app using docz",
-    "themeConfig": {},
+    "themeConfig": {
+      "mode": "dark"
+    },
     "menu": [],
     "ordering": "descending",
     "version": "1.0.0",
@@ -38,6 +40,7 @@
     },
     "src/hello.mdx": {
       "name": "hello",
+      "fullpage": true,
       "id": "e2fb1f1eb1d17bc0a0e6e100f86fb0f4",
       "filepath": "src/hello.mdx",
       "link": null,
